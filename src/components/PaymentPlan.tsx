@@ -24,7 +24,7 @@ const PaymentPlan = ({
           </div>
         </div>
         <div className="h-full flex items-center">
-          <a href="#" className="text-brightBlue font-medium text-sm underline">
+          <a href="#" className="text-brightBlue font-medium text-sm underline hover:no-underline hover:opacity-50">
             Change
           </a>
         </div>

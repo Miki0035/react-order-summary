@@ -26,13 +26,13 @@ const App = () => {
       <div className="w-full flex flex-col items-center gap-4">
         <button
           type="button"
-          className="bg-brightBlue w-64 text-white text-md font-medium rounded-md text-center py-2"
+          className="bg-brightBlue w-64 text-white text-md font-medium rounded-md text-center py-2 hover:opacity-30"
         >
           Proceed to Payment
         </button>
         <button
           type="button"
-          className="bg-veryPaleBlue w-64 rounded-md font-medium text-sm text-center text-desaturatedBlue "
+          className="bg-veryPaleBlue w-64 rounded-md font-medium text-sm text-center text-desaturatedBlue hover:text-darkBlue hover:font-bold "
         >
           Cancel Order
         </button>
