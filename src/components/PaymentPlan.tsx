@@ -17,7 +17,7 @@ const PaymentPlan = ({
             className="rounded-full w-8 h-8"
           />
           <div className="flex flex-col justify-start">
-            <h4 className="font-bold text-sm">{planType}</h4>
+            <h2 className="font-bold text-sm">{planType}</h2>
             <p className="text-sm font-medium text-desaturatedBlue">
               ${price}/year
             </p>
